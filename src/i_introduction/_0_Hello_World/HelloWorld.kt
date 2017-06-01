@@ -3,8 +3,8 @@ package i_introduction._0_Hello_World
 import util.TODO
 import util.doc0
 
-fun todoTask0(): Nothing = TODO(
-    """
+fun todoTask0(): String {
+    /*
         Introduction.
 
         Kotlin Koans project consists of 42 small tasks for you to solve.
@@ -21,10 +21,11 @@ fun todoTask0(): Nothing = TODO(
         Using 'references =' you can navigate to the code mentioned in the task description.
 
         Let's start! Make the function 'task0' return "OK".
-    """,
-    documentation = doc0(),
-    references = { task0(); "OK" }
-)
+    */
+//    documentation = doc0(),
+//    references = { task0(); "OK" }
+    return "OK"
+}
 
 fun task0(): String {
     return todoTask0()
